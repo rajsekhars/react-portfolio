@@ -1,0 +1,77 @@
+import React from 'react'
+import './App.css'
+
+function App() {
+  return (
+    <div className="container">
+      <header className="hero">
+        <h1>Hi, I'm Rajsekhar</h1>
+        <p>Creative Full Stack Web Developer</p>
+      </header>
+
+      <nav className="navbar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          I'm a passionate full-stack developer with over 12 years of experience in building performant, accessible, and visually engaging web applications. I specialize in React, Node.js, and modern frontend architecture. When I'm not coding, I enjoy photography and cooking.
+        </p>
+      </section>
+
+      <section id="skills">
+        <h2>Technical Skills</h2>
+        <div className="skills-grid">
+          <span>React.js</span>
+          <span>JavaScript</span>
+          <span>TypeScript</span>
+          <span>Node.js</span>
+          <span>HTML5</span>
+          <span>CSS3</span>
+          <span>Git & GitHub</span>
+          <span>REST APIs</span>
+          <span>SQL / MongoDB</span>
+        </div>
+      </section>
+
+      <section id="projects">
+        <h2>Projects</h2>
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3>Portfolio Website</h3>
+            <p>A clean, responsive React portfolio to showcase my skills and contact details.</p>
+            <a href="#" target="_blank">View Live</a>
+          </div>
+          <div className="project-card">
+            <h3>Task Manager App</h3>
+            <p>A productivity tool built with MERN stack allowing users to manage daily tasks.</p>
+            <a href="#" target="_blank">View GitHub</a>
+          </div>
+          <div className="project-card">
+            <h3>Photo Gallery</h3>
+            <p>Modern photo gallery using React hooks and Cloudinary API to store images.</p>
+            <a href="#" target="_blank">View Gallery</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>I'd love to hear from you. Let's connect and create something amazing together.</p>
+        <p>Email: raj.seerapu06@gmail.com</p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/rajsekhars" target="_blank">linkedin.com/in/yourprofile</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      </section>
+
+      <footer>
+        <p>&copy; 2025 Rajasekhar R. Seerapu. Designed with 💙 using React.</p>
+      </footer>
+    </div>
+  )
+}
+
+export default App
