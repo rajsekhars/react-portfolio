@@ -63,8 +63,8 @@ function App() {
         <h2>Contact</h2>
         <p>I'd love to hear from you. Let's connect and create something amazing together.</p>
         <p>Email: raj.seerapu06@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/rajsekhars" target="_blank">linkedin.com/in/yourprofile</a></p>
-        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/rajsekhars" target="_blank">linkedin.com/in/rajsekhars</a></p>
+        <p>GitHub: <a href="https://github.com/rajsekhars" target="_blank">github.com/rajsekhars</a></p>
       </section>
 
       <footer>
