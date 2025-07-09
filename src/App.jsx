@@ -5,8 +5,8 @@ function App() {
   return (
     <div className="container">
       <header className="hero">
-        <h1>Hi, I'm Rajsekhar</h1>
-        <p>Creative Full Stack Web Developer</p>
+        <h1>Hi, I'm Rajasekhar</h1>
+        <p>Full Stack Web Developer</p>
       </header>
 
       <nav className="navbar">
@@ -19,7 +19,13 @@ function App() {
       <section id="about">
         <h2>About Me</h2>
         <p>
-          I'm a passionate full-stack developer with over 12 years of experience in building performant, accessible, and visually engaging web applications. I specialize in React, Node.js, and modern frontend architecture. When I'm not coding, I enjoy photography and cooking.
+        I'm a passionate Full-Stack Developer with 12 years of experience in building performant, accessible, scalable and visually engaging web applications. 
+        </p>
+        <p>
+        My expertise spans React, Angular, Node.js, TypeScript, JavaScript, SFCC UI, jQuery, HTML5, CSS3, Python, Java, MySQL, SQL and modern frontend architecture, with a strong focus on optimizing performance, integrating APIs, and delivering seamless user experiences. 
+        </p>
+        <p>
+        When I'm not coding, I enjoy photography and writing.
         </p>
       </section>
 
@@ -29,7 +35,12 @@ function App() {
           <span>React.js</span>
           <span>JavaScript</span>
           <span>TypeScript</span>
+          <span>Python Flask</span>
+          <span>SFCC UI</span>
+          <span>Java</span>
+          <span>JQuery</span>
           <span>Node.js</span>
+          <span>AWS</span>
           <span>HTML5</span>
           <span>CSS3</span>
           <span>Git & GitHub</span>
