@@ -1,21 +1,28 @@
 import React from 'react'
 import './App.css'
+import profileImage from './assets/profile.jpg'
+import { FaGithub, FaLinkedin, FaArrowDown, FaDownload } from 'react-icons/fa'
+
 
 function App() {
+  const scrollTo = (id) => {
+    document.getElementById(id).scrollIntoView({ behavior: 'smooth' });
+  }
   return (
     <div className="container">
       <header className="hero">
+        <img src={profileImage} alt="Profile" className="profile-img" />
         <h1>Hi, I'm Rajasekhar</h1>
         <p>Full Stack Web Developer</p>
       </header>
 
       <nav className="navbar">
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#contact">Contact</a>
+        <a onClick={() => scrollTo('about')}>About</a>
+        <a onClick={() => scrollTo('skills')}>Skills</a>
+        <a onClick={() => scrollTo('projects')}>Projects</a>
+        <a onClick={() => scrollTo('experience')}>Experience</a>
+        <a onClick={() => scrollTo('education')}>Education</a>
+        <a onClick={() => scrollTo('contact')}>Contact</a>
       </nav>
 
       <section id="about">
@@ -29,6 +36,7 @@ function App() {
         <p>
         When I'm not coding, I enjoy photography and writing.
         </p>
+        <button onClick={() => scrollTo('Skills')}className="scroll-icon-right hidden"><FaArrowDown /></button>
       </section>
 
       <section id="skills">
@@ -67,6 +75,7 @@ function App() {
           <span>JEST</span>
           <span>Agile</span>
         </div>
+        <button onClick={() => scrollTo('projects')}className="scroll-icon-right hidden"><FaArrowDown /></button>
       </section>
 
       <section id="projects">
@@ -88,6 +97,7 @@ function App() {
             <a href="#" target="_blank">View Gallery</a>
           </div>
         </div>
+        <button onClick={() => scrollTo('experience')}className="scroll-icon-right"><FaArrowDown /></button>
       </section>
       <section id="experience">
         <h2>Experience</h2>
@@ -124,6 +134,7 @@ function App() {
             <p>Developed responsive and user-friendly web applications and CMS components for healthcare, social networking and e-Commerce domain using PHP, MySQL, jQuery, JavaScript, CSS3, Bootstrap and HTML5.</p>
           </div>
         </div>
+        <button onClick={() => scrollTo('education')}className="scroll-icon-right"><FaArrowDown /></button>
       </section>
 
       <section id="education">
@@ -135,13 +146,17 @@ function App() {
             <p>Graduated with distinction. Developed a passion for problem-solving and software development through academic and side projects.</p>
           </div>
         </div>
+        <button onClick={() => scrollTo('contact')}className="scroll-icon-right"><FaArrowDown /></button>
       </section>
       <section id="contact">
         <h2>Contact</h2>
         <p>I'd love to hear from you. Let's connect and create something amazing together.</p>
         <p>Email: raj.seerapu06@gmail.com</p>
-        <p>LinkedIn: <a href="https://linkedin.com/in/rajsekhars" target="_blank">linkedin.com/in/rajsekhars</a></p>
-        <p>GitHub: <a href="https://github.com/rajsekhars" target="_blank">github.com/rajsekhars</a></p>
+        <div className="social-icons">
+          <a href="https://linkedin.com/in/rajsekhars" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+          <a href="https://github.com/rajsekhars" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="/Rajsekhar_Resume.docx" download title="Download Resume"><FaDownload /></a>
+        </div>
       </section>
 
       <footer>
