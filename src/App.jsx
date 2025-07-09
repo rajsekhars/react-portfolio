@@ -13,6 +13,8 @@ function App() {
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
         <a href="#contact">Contact</a>
       </nav>
 
@@ -69,7 +71,32 @@ function App() {
           </div>
         </div>
       </section>
+      <section id="experience">
+        <h2>Experience</h2>
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3>Senior Software Engineer</h3>
+            <p>ABC Technologies, USA (2021 - Present)</p>
+            <p>Leading frontend development using React, optimizing web performance and user experience across enterprise applications.</p>
+          </div>
+          <div className="project-card">
+            <h3>Full Stack Developer</h3>
+            <p>XYZ Solutions, India (2013 - 2021)</p>
+            <p>Built and maintained scalable web applications, integrated third-party APIs, and ensured code quality using best practices.</p>
+          </div>
+        </div>
+      </section>
 
+      <section id="education">
+        <h2>Education</h2>
+        <div className="projects-grid">
+          <div className="project-card">
+            <h3>Bachelor of Technology in Electronics & Communication</h3>
+            <p>JNTU Hyderabad, India (2009 - 2013)</p>
+            <p>Graduated with distinction. Developed a passion for problem-solving and software development through academic and side projects.</p>
+          </div>
+        </div>
+      </section>
       <section id="contact">
         <h2>Contact</h2>
         <p>I'd love to hear from you. Let's connect and create something amazing together.</p>
