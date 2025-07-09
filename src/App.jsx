@@ -37,17 +37,35 @@ function App() {
           <span>React.js</span>
           <span>JavaScript</span>
           <span>TypeScript</span>
-          <span>Python Flask</span>
-          <span>SFCC UI</span>
-          <span>Java</span>
-          <span>JQuery</span>
           <span>Node.js</span>
+          <span>Redux</span>
+          <span>Angular</span>
+          <span>SFCC UI</span>
+          <span>JQuery</span>
+          <span>Java</span>
+          <span>Python Flask</span>
+          <span>Php</span>
+          <span>SQL</span>
+          <span>MySQL</span>
+          <span>MongoDB</span>
+          <span>PostgreSQL</span>
+          <span>REST APIs</span>
           <span>AWS</span>
+          <span>Azure</span>
+          <span>GCP</span>
+          <span>Power BI</span>
           <span>HTML5</span>
           <span>CSS3</span>
+          <span>Bootstrap</span>
+          <span>Tailwind</span>
+          <span>Materia UI</span>
+          <span>LESS</span>
+          <span>SCSS</span>
+          <span>Figma</span>
           <span>Git & GitHub</span>
-          <span>REST APIs</span>
-          <span>SQL / MongoDB</span>
+          <span>GraphQL</span>
+          <span>JEST</span>
+          <span>Agile</span>
         </div>
       </section>
 
@@ -75,14 +93,35 @@ function App() {
         <h2>Experience</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <h3>Senior Software Engineer</h3>
-            <p>ABC Technologies, USA (2021 - Present)</p>
-            <p>Leading frontend development using React, optimizing web performance and user experience across enterprise applications.</p>
+            <h3>Technical Lead</h3>
+            <p>Cleveland Cliffs (Contract), East Chicago, USA (2023 - Present)</p>
+            <p>Leading development and implementation of the 'Order to Cash(OTC)' application for Cliffs using React v18, Node, TypeScript, JavaScript, REST, Express and SQL, optimizing web performance and user experience across enterprise applications.</p>
           </div>
           <div className="project-card">
-            <h3>Full Stack Developer</h3>
-            <p>XYZ Solutions, India (2013 - 2021)</p>
-            <p>Built and maintained scalable web applications, integrated third-party APIs, and ensured code quality using best practices.</p>
+          <h3>Technical Lead</h3>
+            <p>GSPANN Technologies, India (2021 - 2023)</p>
+            <p>Led the development of a responsive and user-friendly E-Commerce application using ReactJS, Node, Angular, SFCC UI, JavaScript, jQuery, ISML, CSS3, HTML5, Figma and SQL.</p>
+          </div>
+          <div className="project-card">
+          <h3>Lead Engineer</h3>
+            <p>HCL Technologies, India (2016 - 2020)</p>
+            <p>Implemented and designed responsive networking domain applications using ReactJS, Angular JS, Angular 10, JavaScript, jQuery, Python django, CSS3, SASS, LESS, Bootstrap, Figma, HTML5, Core Java and MySQL.</p>
+          </div>
+          <div className="project-card">
+          <h3>Senior Software Engineer</h3>
+            <p>Innovare IT Solutions, India (2015 - 2016)</p>
+            <p>Built virtual reality based customizable and interactive applications using JavaScript, jQuery, Three.js, CSS3, Bootstrap, Material UI, HTML5, PHP (CS Cart) and MySQL.
+            </p>
+          </div>
+          <div className="project-card">
+          <h3> Software Engineer</h3>
+            <p>Messisoft, India (2015 - 2016)</p>
+            <p>Designed and implemented interactive and responsive web applications using PHP, MySQL, jQuery, JavaScript, CSS3, Bootstrap, Magento, WordPress and HTML5.</p>
+          </div>
+          <div className="project-card">
+          <h3>Software Engineer</h3>
+            <p>Zonup Technologies, India (2012 - 2014)</p>
+            <p>Developed responsive and user-friendly web applications and CMS components for healthcare, social networking and e-Commerce domain using PHP, MySQL, jQuery, JavaScript, CSS3, Bootstrap and HTML5.</p>
           </div>
         </div>
       </section>
@@ -91,8 +130,8 @@ function App() {
         <h2>Education</h2>
         <div className="projects-grid">
           <div className="project-card">
-            <h3>Bachelor of Technology in Electronics & Communication</h3>
-            <p>JNTU Hyderabad, India (2009 - 2013)</p>
+            <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
+            <p>JNTU Kakinada, India (2008 - 2011)</p>
             <p>Graduated with distinction. Developed a passion for problem-solving and software development through academic and side projects.</p>
           </div>
         </div>
