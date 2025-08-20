@@ -1,7 +1,6 @@
 import React from 'react'
 import './App.css'
 import profileImage from './assets/profile.jpg'
-import profileImage2 from './assets/profile2.jpeg'
 import { FaGithub, FaLinkedin, FaArrowDown, FaDownload } from 'react-icons/fa'
 
 
@@ -13,7 +12,6 @@ function App() {
     <div className="container">
       <header className="hero">
         <img src={profileImage} alt="Profile" className="profile-img" />
-        <img src={profileImage2} alt="Profile2" className="profile-img" />
         <h1>Hi, I'm Rajasekhar</h1>
         <p>Full Stack Web Developer</p>
       </header>
