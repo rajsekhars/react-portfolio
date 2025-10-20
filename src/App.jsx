@@ -13,7 +13,7 @@ function App() {
     <div className="container">
       <header className="hero">
         <img src={profileImage} alt="Profile" className="profile-img" />
-        <img src={profileImage2} alt="Profile" className="profile-img" />
+        <img src={profileImage2} style="display:none;" alt="Profile" className="profile-img" />
         <h1>Hi, I'm Rajasekhar</h1>
         <p>Full Stack Web Developer</p>
       </header>
