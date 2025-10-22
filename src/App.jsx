@@ -103,15 +103,15 @@ function App() {
       <section id="experience">
         <h2>Experience</h2>
         <div className="projects-grid">
-        <div className="project-card">
-            <h3>Technical Lead</h3>
-            <p>Cleveland Cliffs (Contract), East Chicago, IN, USA (Jul 2023 - Jul 2025)</p>
-            <p>Leading development and implementation of the 'Order to Cash(OTC)' application for Cliffs using React v18, Node, TypeScript, JavaScript, REST, Express and SQL, optimizing web performance and user experience across enterprise applications.</p>
-          </div>
           <div className="project-card">
             <h3>Technical Lead</h3>
             <p>Walmart (Contract), Sunnyvale, USA (Aug 2025 - Present)</p>
             <p>Leading development and implementation of the 'Seller Incentives Management (SIM)' application for Walmart using React v18, Node, TypeScript, JavaScript, REST, PlayWright, Express and SQL</p>
+          </div>
+          <div className="project-card">
+            <h3>Technical Lead</h3>
+            <p>Cleveland Cliffs (Contract), East Chicago, IN, USA (Jul 2023 - Jul 2025)</p>
+            <p>Leading development and implementation of the 'Order to Cash(OTC)' application for Cliffs using React v18, Node, TypeScript, JavaScript, REST, Express and SQL, optimizing web performance and user experience across enterprise applications.</p>
           </div>
           <div className="project-card">
           <h3>Technical Consultant</h3>
