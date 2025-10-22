@@ -61,7 +61,6 @@ function App() {
           <span>REST APIs</span>
           <span>AWS</span>
           <span>Azure</span>
-          <span>GCP</span>
           <span>Power BI</span>
           <span>HTML5</span>
           <span>CSS3</span>
@@ -74,6 +73,7 @@ function App() {
           <span>Git & GitHub</span>
           <span>GraphQL</span>
           <span>JEST</span>
+          <span>PlayWright</span>
           <span>Agile</span>
         </div>
         <button onClick={() => scrollTo('projects')}className="scroll-icon-right hidden"><FaArrowDown /></button>
