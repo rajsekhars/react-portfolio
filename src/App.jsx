@@ -103,13 +103,18 @@ function App() {
       <section id="experience">
         <h2>Experience</h2>
         <div className="projects-grid">
-          <div className="project-card">
+        <div className="project-card">
             <h3>Technical Lead</h3>
-            <p>Cleveland Cliffs (Contract), East Chicago, USA (2023 - Present)</p>
+            <p>Cleveland Cliffs (Contract), East Chicago, IN, USA (Jul 2023 - Jul 2025)</p>
             <p>Leading development and implementation of the 'Order to Cash(OTC)' application for Cliffs using React v18, Node, TypeScript, JavaScript, REST, Express and SQL, optimizing web performance and user experience across enterprise applications.</p>
           </div>
           <div className="project-card">
-          <h3>Technical Lead</h3>
+            <h3>Technical Lead</h3>
+            <p>Walmart (Contract), Sunnyvale, USA (Aug 2025 - Present)</p>
+            <p>Leading development and implementation of the 'Seller Incentives Management (SIM)' application for Walmart using React v18, Node, TypeScript, JavaScript, REST, PlayWright, Express and SQL</p>
+          </div>
+          <div className="project-card">
+          <h3>Technical Consultant</h3>
             <p>GSPANN Technologies, India (2021 - 2023)</p>
             <p>Led the development of a responsive and user-friendly E-Commerce application using ReactJS, Node, Angular, SFCC UI, JavaScript, jQuery, ISML, CSS3, HTML5, Figma and SQL.</p>
           </div>
@@ -143,7 +148,7 @@ function App() {
         <div className="projects-grid">
           <div className="project-card">
             <h3>Bachelor of Technology in Electronics & Communication Engineering</h3>
-            <p>JNTU Kakinada, India (2008 - 2011)</p>
+            <p>JNTU Kakinada, India (2008 - 2012)</p>
             <p>Graduated with distinction. Developed a passion for problem-solving and software development through academic and side projects.</p>
           </div>
         </div>
@@ -152,7 +157,7 @@ function App() {
       <section id="contact">
         <h2>Contact</h2>
         <p>I'd love to hear from you. Let's connect and create something amazing together.</p>
-        <p>Email: raj.seerapu06@gmail.com</p>
+        <p>Email: raj.seerapu06@gmail.com / rajasekharseerapu@gmail.com</p>
         <div className="social-icons">
           <a href="https://linkedin.com/in/rajsekhars" target="_blank" rel="noreferrer"><FaLinkedin /></a>
           <a href="https://github.com/rajsekhars" target="_blank" rel="noreferrer"><FaGithub /></a>
