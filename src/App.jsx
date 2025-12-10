@@ -54,6 +54,8 @@ function App() {
           <span>Java</span>
           <span>Python Flask</span>
           <span>Php</span>
+          <span>Next.js</span>
+          <span>Express.js</span>
           <span>SQL</span>
           <span>MySQL</span>
           <span>MongoDB</span>
